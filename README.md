@@ -21,7 +21,7 @@ To Update:
 composer update
 ```
 
-If Composer is not isntall on your machine, run:
+If Composer is not installed on your machine, run:
 ```
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
