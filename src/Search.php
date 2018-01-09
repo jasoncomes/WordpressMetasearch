@@ -1,12 +1,12 @@
 <?php
 
-namespace WordPressMetasearch;
+namespace WordpressMeta;
 
 /**
- * Metasearch Class
+ * Search Class
  *
  */
-class Metasearch
+class Search
 {
 
     /**

@@ -5,7 +5,7 @@
         "WordPress", 
         "Meta Information",
         "Meta Removal",
-        "Meta Update",
+        "Meta Update"
     ],
     "authors": [
         {
@@ -21,7 +21,7 @@
     "homepage": "https://github.com/jasoncomes/WordpressMetasearch",
     "autoload": {
         "psr-4": {
-            "WordPressMetasearch\\": "src/"
+            "WordpressMeta\\": "src/"
         }
     }
 }

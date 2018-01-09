@@ -36,16 +36,16 @@ Used to retrieve meta fields with defined search query/fields. **Requirements to
 
 ### Initialize
 ```
-use WordPressMetasearch\Metasearch;
+use WordPressMeta\Search;
 
-$metasearch = new Metasearch;
-$metasearch->meta = [
+$search = new Search;
+$search->meta = [
     ...Meta
 ];
-$metasearch->query = [
+$search->query = [
     ...Query
 ];
-$metasearch->build();
+$search->build();
 ```
 ## Meta
 ```
@@ -104,12 +104,12 @@ Pulls in posts like above using the `searchValue`. This allows you to replace `m
 
 #### Example Usage
 ```
-$metasearch = new Meta;
-$metasearch->meta = [
+$search = new Search;
+$search->meta = [
     'degree_level_id' => 2,
     'editorial_only_page' => [0, 2]
 ];
-$metasearch->query = [
+$search->query = [
     'post'      => ['5474', '6505', '6504', '6503', '234234322'],
     'post_type' => ['post'],
     'parent'    => ['172'],
@@ -118,5 +118,5 @@ $metasearch->query = [
     'slug'      => 'page-slug-name',
     'wp_args'   => ['category__in' => [5, 6]],
 ];
-$metasearch->build();
+$search->build();
 ```
