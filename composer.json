@@ -1,0 +1,27 @@
+{
+    "name": "wordpressmetasearch",
+    "description": "Meta Search Tool for Wordpress",
+    "keywords": [ 
+        "WordPress", 
+        "Meta Information",
+        "Meta Removal",
+        "Meta Update",
+    ],
+    "authors": [
+        {
+            "name": "Jason Comes",
+            "email": "jasonwcomes@gmail.com",
+            "homepage": "https://github.com/jasoncomes/WordpressMetasearch",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "jasonwcomes@gmail.com"
+    },
+    "homepage": "https://github.com/jasoncomes/WordpressMetasearch",
+    "autoload": {
+        "psr-4": {
+            "WordPressMetasearch\\": "src/"
+        }
+    }
+}

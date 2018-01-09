@@ -1,0 +1,8 @@
+{
+  "name": "WordPressMetasearch",
+  "version": "1.0.0",
+  "description": "WordPress Meta Data Search Utility",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}

@@ -1,0 +1,163 @@
+<style>
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial";
+  margin: 0;
+}
+
+table {
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 14px;
+  table-layout: fixed;
+  text-align: left;
+  width: 100%;
+}
+
+tbody td,
+thead th {
+  font-weight: normal;
+  padding: 15px;
+}
+
+thead th {
+  border: 0;
+}
+
+thead th:first-child {
+  background-color: #283840;
+  border-bottom: 1px solid #283840;
+  border-right: 1px solid #283840;
+  color: #ffffff;
+  font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  vertical-align: top;
+  width: 325px;
+}
+
+thead th:last-child {
+  border-bottom: 1px solid #DFE8EE;
+  vertical-align: bottom;
+}
+
+tbody td {
+  border-bottom: 1px solid #DFE8EE;
+}
+
+tbody td:first-child {
+  border-right: 1px solid #DFE8EE;
+  background: #F4F8FB;
+  color: #444;
+  text-transform: uppercase;
+}
+
+tfoot td {
+  background-color: #29c38b;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+h4 {
+  margin: 10px 0 5px;
+  font-size: 13px;
+}
+
+h5,
+h6 {
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+h6  {
+  font-size: 11px;
+}
+
+hr {
+  border: 1px solid #0daf73;
+  margin: 5px 0 20px;
+}
+
+p {
+  margin: 0;
+}
+
+pre {
+  background-color: #F4F8FB;
+  font-size: 12px;
+  padding: 10px;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+pre.remove {
+  background-color: #f9e2e2;
+}
+
+pre.update {
+  background-color: #bdefba;
+}
+
+a {
+  color: #439FD4;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6EC0EF;
+}
+
+[class^='btn'] {
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.btn-remove {
+  background-color: #c32929;
+}
+
+.btn-back,
+.btn-update {
+  background-color: #0daf73;
+}
+
+.btn-update:hover,
+.btn-back:hover,
+.btn-remove:hover {
+  color: #ffffff;
+}
+
+pre:hover .link-update,
+pre:hover .link-remove {
+  opacity: 1
+}
+
+.link-update,
+.link-remove {
+  float: right;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial";
+  margin: 0 0 0 15px;
+  opacity: 0;
+  text-transform: uppercase;
+  transition: opacity .3s;
+}
+
+</style>
